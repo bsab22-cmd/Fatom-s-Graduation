@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fatima Graduation</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="sparkles"></div>
+
+<div class="butterfly b1"></div>
+<div class="butterfly b2"></div>
+<div class="butterfly b3"></div>
+
+<div class="petal p1"></div>
+<div class="petal p2"></div>
+<div class="petal p3"></div>
+<div class="petal p4"></div>
+<div class="petal p5"></div>
+
+<!-- COVER -->
+
+<div id="cover">
+
+<div class="envelope" onclick="openInvitation()">
+
+<img src="images/envelope.png" class="envelope-image">
+
+
+</div>
+
+<p class="tap">Tap To Open</p>
+
+</div>
+
+<!-- INVITATION -->
+
+<div id="invitation">
+
+<div class="card">
+
+<img src="images/lace-top.png" class="lace-top">
+
+<h3 class="small">You're Invited To</h3>
+
+<h1 class="name">Fatima</h1>
+
+<p class="graduate">
+Graduation Celebration
+</p>
+
+<div class="line"></div>
+
+<div class="details">
+
+<div class="info-box">
+
+<h4>Date</h4>
+
+<p>Sunday</p>
+
+<p>26 July 2026</p>
+
+</div>
+
+<div class="info-box">
+
+<h4>Time</h4>
+
+<p>8:00 PM</p>
+
+</div>
+
+</div>
+
+<h4 class="countdown-title">
+Countdown
+</h4>
+
+<div class="countdown">
+
+<div class="time-box">
+<span id="days">00</span>
+<p>Days</p>
+</div>
+
+<div class="time-box">
+<span id="hours">00</span>
+<p>Hours</p>
+</div>
+
+<div class="time-box">
+<span id="minutes">00</span>
+<p>Minutes</p>
+</div>
+
+<div class="time-box">
+<span id="seconds">00</span>
+<p>Seconds</p>
+</div>
+
+</div>
+<!-- ========================= -->
+<!-- DRESS CODE -->
+<!-- ========================= -->
+
+<div class="dress-code">
+
+<h4>Dress Code</h4>
+
+<div class="dress-colors">
+
+<span class="pink"></span>
+
+<span class="yellow"></span>
+
+<span class="tiffany"></span>
+
+<span class="orange"></span>
+
+</div>
+
+<p>Pink • Yellow • Tiffany • Orange</p>
+
+</div>
+
+<!-- ========================= -->
+<!-- LOCATION -->
+<!-- ========================= -->
+
+<div class="location-card">
+
+<a href="https://maps.app.goo.gl/VBfKazMFDFPZjGbx7" target="_blank">
+
+<img src="images/location-photo.png" alt="Chalet">
+
+<p>Tap to Open Chalet Location</p>
+
+</a>
+
+</div>
+
+<!-- ========================= -->
+<!-- MUSIC -->
+<!-- ========================= -->
+
+<div class="music-box">
+
+    <div class="vinyl" onclick="toggleMusic()">
+        <img src="images/vinyl.png" alt="Vinyl">
+    </div>
+
+</div>
+
+<img src="images/lace-bottom.png" class="lace-bottom">
+
+</div> <!-- نهاية card -->
+
+</div> <!-- نهاية invitation -->
+
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
